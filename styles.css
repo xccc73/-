@@ -1,0 +1,76 @@
+/* 扩展样式 */
+.deepseek-config {
+    padding: 15px;
+    background: var(--background-modifier-accent);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.deepseek-config h3 {
+    color: var(--text-normal);
+    margin-bottom: 15px;
+}
+
+.deepseek-config label {
+    display: block;
+    margin: 10px 0;
+    color: var(--text-muted);
+}
+
+.deepseek-config input[type="password"],
+.deepseek-config input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    background: var(--background-primary);
+    border: 1px solid var(--border-color-primary);
+    color: var(--text-normal);
+    border-radius: 4px;
+}
+
+.balance-panel {
+    background: var(--background-secondary);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.balance-panel h2 {
+    color: var(--text-normal);
+    margin-bottom: 20px;
+}
+
+.balance-info p {
+    margin: 12px 0;
+    font-size: 16px;
+    color: var(--text-muted);
+}
+
+.balance-info span {
+    float: right;
+    color: var(--text-normal);
+    font-weight: 500;
+}
+
+.warning {
+    margin-top: 20px;
+    padding: 10px;
+    background: var(--background-modifier-error);
+    border-radius: 4px;
+    color: var(--text-error);
+    font-size: 0.9em;
+}
+
+.btn {
+    background: var(--interactive-accent);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: var(--interactive-accent-hover);
+}
