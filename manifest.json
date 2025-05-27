@@ -1,15 +1,12 @@
 {
-    "name": "DeepSeek余额查询",
-    "version": "1.0.0",
-    "author": "Your Name",
-    "description": "查询DeepSeek API使用余额和额度信息",
-    "homepage": "https://github.com/yourusername/deepseek-balance-checker",
-    "license": "MIT",
+    "name": "DeepSeek Balance",
+    "description": "实时显示DeepSeek API剩余额度",
+    "author": "xccc73",
+    "version": "1.1",
+    "icon": "💰",
+    "homepage": "https://github.com/xccc73/deepseek-balance",
     "compatibility": {
-        "sillytavern": ">=1.10.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/yourusername/deepseek-balance-checker.git"
+        "minimum": "1.10.0",
+        "recommended": "1.11.2"
     }
 }
